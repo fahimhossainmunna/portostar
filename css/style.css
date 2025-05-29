@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+img{
+  vertical-align: middle;
+}
 a,
 a:hover {
   text-decoration: none;
@@ -157,11 +160,29 @@ ol {
 }
 /* Services Part End */
 
-/* Header Part Start  */
-/* Header Part End */
+/* Experience Part Start  */
+#experiencepart{
+  background: url(../iamges/SECTION\ ABOUT.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+.bannertext p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  line-height: 32px;
+  padding-bottom: 30px;
+  width: 584px;
+}
+/* Experience Part End */
 
-/* Header Part Start  */
-/* Header Part End */
+/* claint Part Start  */
+#claintpart{
+  padding: 80px 0;
+}
+/* claint Part End */
 
 /* Header Part Start  */
 /* Header Part End */
